@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	mediators "design-pattern/mediator_pattern"
+)
 
 func main() {
-	fmt.Println("Hello word")
+	mediators.MediatorDemo{}.Run()
 }
